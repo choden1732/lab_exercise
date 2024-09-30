@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Bootstrap.html/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style_sheet.css">
+    <link rel="stylesheet" href="Bootstrap.html/fontawesome/all.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="text-center py-5">
+        <div class="container">
+            <img src="/PHOTO/PICTURE.jfif" alt="CHODEN" class="rounded-circle" width="250px">
+            <h1>Choden</h1>
+            <p>Jigme Namgyal Engineering College</p>
+            <p>Computer and Networking Systems Student | Jigme Namgyel Engineering College
+    
+                Passionate about exploring the dynamic world of technology, I am currently pursuing a degree in Computer and Networking Systems at Jigme Namgyel Engineering College. My focus lies in building efficient networks and mastering the art of coding, with a keen interest in creating solutions that drive innovation. Always eager to learn and grow, I strive to turn challenges into opportunities and contribute to the evolving tech landscape.</p>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Python</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/PHOTO/images.jfif" class="card-img-top" alt="Hostel Room Booking">
+                        <div class="card-body">
+                            <h5 class="card-title">Hostel Room Booking</h5>
+                            <p class="card-text">Designed a comprehensive Hostel Room Booking System simplifying the room reservation process for students.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/PHOTO/download.jfif" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Restaurant Management System</h5>
+                            <p class="card-text"> Restaurant Management System that streamlines orders, menu, and customer management using a relational database. This project highlights my skills in SQL and database design</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/PHOTO/invoice.jfif" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Invoice Generator</h5>
+                            <p class="card-text"> invoice generator using Python and Tkinter, featuring a user-friendly interface to create and manage invoices efficiently. This project demonstrates my skills in Python programming and GUI design.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#project3Modal">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Testimonial Section (Carousel) -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>"Great work!" - Client 1</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Very professional!" - Client 2</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Excellent service!" - Client 3</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        <div>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>© 2023 My Portfolio</p>
+    </footer>
+    
+    <!-- Modals for Projects -->
+    <!-- Modal for Project 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Hostel Room Booking</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="/PHOTO/images.jfif" class="img-fluid" alt="Hostel Room Booking">
+                    <p>For my ISDM module, I designed and developed a comprehensive *Hostel Room Booking System* aimed at simplifying the room reservation process for students. This project offers an intuitive platform where users can seamlessly browse available rooms, check real-time availability, and secure their bookings with just a few clicks. Administrators have access to powerful tools for managing room assignments, monitoring booking statuses, and handling cancellations, all in one centralized system. The project focused on creating a smooth user experience, with responsive design and efficient backend functionality to ensure hassle-free room management. This solution is crafted to transform the way students engage with hostel services.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/Bootstrap.html/js/bootstrap.bundle.js"></script>
+    <script src="/Bootstrap.html/js/bootstrap.bundle.min.js"></script>
+    <script src="/java.js"></script>
+</html>
